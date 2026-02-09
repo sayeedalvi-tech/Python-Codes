@@ -70,4 +70,13 @@
 #         print("Movie not available")
 # else:
 #     print("Theatre not present")
-    
+
+#4. wap to check if given number is odd and greater than 15
+num=int(input("Enter Number:"))
+if num%2!=0:
+    if num > 15:
+        print("Odd and greater than 15")
+    else:
+        print("not odd and not greater than 15")
+else:
+    print("Even Number")
