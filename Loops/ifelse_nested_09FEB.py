@@ -43,6 +43,29 @@ if user in theatre:
         print(f"Selected Theatre : {user}")
         print(f"Selected Movie: {user1}")
         price=[200,300,400,500]
+        amount=int(input("Enter Amount:"))
+        if amount==price[0]:
+            print(f"Selected Theatre : {user}")
+            print(f"Selected Movie: {user1}")
+            print(f"Amount : {price[0]}")
+
+        elif amount==price[1]:
+            print(f"Selected Theatre : {user}")
+            print(f"Selected Movie: {user1}")
+            print(f"Amount : {price[1]}")
+        
+        elif amount==price[2]:
+            print(f"Selected Theatre : {user}")
+            print(f"Selected Movie: {user1}")
+            print(f"Amount : {price[2]}")
+
+        elif amount==price[3]:
+            print(f"Selected Theatre : {user}")
+            print(f"Selected Movie: {user1}")
+            print(f"Amount : {price[3]}")
+        
+        else:
+            print("Price Too High")
     else:
         print("Movie not available")
 else:
