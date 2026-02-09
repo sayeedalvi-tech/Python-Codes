@@ -1,12 +1,12 @@
-# # #1. WAP TO CHECK IF NUMBER IS POSTIVE IF POSITIVE THEN CHECK IF EVEN OR ODD
-# # num=int(input("Enter NUmber"))
-# # if num > 0:
-# #     if num%2==0:
-# #         print("Positive and even")
-# #     else:
-# #         print("Positive and odd")
-# # else:
-# #     print("Negative number")
+# #1. WAP TO CHECK IF NUMBER IS POSTIVE IF POSITIVE THEN CHECK IF EVEN OR ODD
+# num=int(input("Enter NUmber"))
+# if num > 0:
+#     if num%2==0:
+#         print("Positive and even")
+#     else:
+#         print("Positive and odd")
+# else:
+#     print("Negative number")
 
 # #2. take list datatype, perform list operation 1-pop 2-sort 3-clear 4-invalid if other datatype invalid datatype
 # data=eval(input("Enter Data:"))
@@ -31,43 +31,43 @@
 # else:
 #     print("Invalid datatype")
 
-#3. WAP to book a ticket in book my show
-print("WELCOME TO BOOK MY SHOW💕")
-theatre=['PVR','INOX','CITY PRIDE','TALKIES','CINEPOLIS']
-user=input("Enter Theatre Name:")
-if user in theatre:
-    print(f"Selected Theatre : {user}")
-    movies=['YJHD','KKKG','KGF','PUSHPA','KKHH','ZNMD']
-    user1=input("Enter Movie:")
-    if user1 in movies:
-        print(f"Selected Theatre : {user}")
-        print(f"Selected Movie: {user1}")
-        price=[200,300,400,500]
-        amount=int(input("Enter Amount:"))
-        if amount==price[0]:
-            print(f"Selected Theatre : {user}")
-            print(f"Selected Movie: {user1}")
-            print(f"Amount : {price[0]}")
+# #3. WAP to book a ticket in book my show
+# print("WELCOME TO BOOK MY SHOW💕")
+# theatre=['PVR','INOX','CITY PRIDE','TALKIES','CINEPOLIS']
+# user=input("Enter Theatre Name:")
+# if user in theatre:
+#     print(f"Selected Theatre : {user}")
+#     movies=['YJHD','KKKG','KGF','PUSHPA','KKHH','ZNMD']
+#     user1=input("Enter Movie:")
+#     if user1 in movies:
+#         print(f"Selected Theatre : {user}")
+#         print(f"Selected Movie: {user1}")
+#         price=[200,300,400,500]
+#         amount=int(input("Enter Amount:"))
+#         if amount==price[0]:
+#             print(f"Selected Theatre : {user}")
+#             print(f"Selected Movie: {user1}")
+#             print(f"Amount : {price[0]}")
 
-        elif amount==price[1]:
-            print(f"Selected Theatre : {user}")
-            print(f"Selected Movie: {user1}")
-            print(f"Amount : {price[1]}")
+#         elif amount==price[1]:
+#             print(f"Selected Theatre : {user}")
+#             print(f"Selected Movie: {user1}")
+#             print(f"Amount : {price[1]}")
         
-        elif amount==price[2]:
-            print(f"Selected Theatre : {user}")
-            print(f"Selected Movie: {user1}")
-            print(f"Amount : {price[2]}")
+#         elif amount==price[2]:
+#             print(f"Selected Theatre : {user}")
+#             print(f"Selected Movie: {user1}")
+#             print(f"Amount : {price[2]}")
 
-        elif amount==price[3]:
-            print(f"Selected Theatre : {user}")
-            print(f"Selected Movie: {user1}")
-            print(f"Amount : {price[3]}")
+#         elif amount==price[3]:
+#             print(f"Selected Theatre : {user}")
+#             print(f"Selected Movie: {user1}")
+#             print(f"Amount : {price[3]}")
         
-        else:
-            print("Price Too High")
-    else:
-        print("Movie not available")
-else:
-    print("Theatre not present")
+#         else:
+#             print("Price Too High")
+#     else:
+#         print("Movie not available")
+# else:
+#     print("Theatre not present")
     
