@@ -1,4 +1,3 @@
-'''
 #11. wap to check the given  character is uppercase then convert to lower case
 a=input("Enter String:")
 if a.isupper():
@@ -61,5 +60,3 @@ if a%2==0:
 if a%2==0:
     lis=lis+[a] or lis=+[a]
     print(lis)
-
-    '''
